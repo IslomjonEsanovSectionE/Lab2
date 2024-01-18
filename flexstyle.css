@@ -1,0 +1,47 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    color: #CCCCCC; /* Light gray font color */
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.flex-containers{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: right;
+}
+
+.flex-containers1{
+    margin-top: 100px; 
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+}
+
+.flex-containers2{
+    margin-top: 100px; 
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+   
+}
+
+.name, .background, .interests, .goals, .phrase, .email{
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.interests, .goals{
+    padding: 10px;
+}
