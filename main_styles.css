@@ -1,0 +1,126 @@
+/*Importing font from the internet*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Setting default color and size */
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    margin: 0;
+    background-color: #B8AB83;
+}
+
+/* all header parts */
+
+
+header{
+    width: 100%;
+    height: 15%;
+    background: #8B4513;
+}
+
+.header_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.header_text{
+    width: 30%;
+    height: 100%;
+    margin-top: 0;
+}
+
+.header_text{
+    text-align: center;
+    margin: 0;
+    width: 80%;
+}
+
+.header_text p{
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Flex containers with picture and text */
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    width: 100%;
+}
+
+.intro_image, .intro_text{
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 80%;
+    width: 40%;
+}
+
+.intro_text{
+    font-size: 2rem;
+}
+
+.intro_image img{
+    height: 100%;
+    width: 100%;
+}
+
+.music-table{
+    width: 100%;
+}
+
+
+/* Styling table with music */
+
+table{
+    margin-top: 10%;
+    width: 100%;
+    justify-content: center;
+    font-size: 5rem;
+    border-collapse: collapse;
+    border: 5px dashed #6B8E23;
+}
+
+tr, td{
+    font-size: 2rem;
+    padding: 5%;
+    border: 5px dashed #6B8E23;
+}
+
+/* Part with Iframe accord tool */
+
+.accord_tool{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+}
+
+iframe{
+    border: 5px dashed #6B8E23;
+}
+
+
+
+/* Footer part */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8B4513;
+    margin-top: 10%;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon:hover{
+    border: #6B8E23 5px dashed;
+}
