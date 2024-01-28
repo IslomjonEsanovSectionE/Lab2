@@ -1,2 +1,2 @@
 # Lab2
-Aboutmepage
+Hobby Page
